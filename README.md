@@ -22,7 +22,7 @@ I’m happy to share my Personal Portfolio Website, built as part of my frontend
 
 🔗 **Live Demo:** [Add your deployed website link]
 
-💻 **GitHub Repository:** https://github.com/sriharini252004-dev/Personal-portfolio
+💻 **GitHub Repository:** https://github.com/sriharini252004-dev/Personal-portfolio.git
 
 I’m continuously learning and building projects to grow as a Frontend Developer. Open to learning opportunities and frontend development internships!
 
