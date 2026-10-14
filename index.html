@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HariniSri | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">HARINISRI<span>.</span></a>
+
+      <button class="menu-btn" id="menuBtn"
+        aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hello, I'm <span>Harinisri</span></h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          I build responsive and user-friendly websites
+          using HTML, CSS, JavaScript and React.
+        </p>
+        <div class="actions">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <p class="social">
+          <a href="https://github.com/sriharini252004-dev"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/harinisri-rajagopal-045ab6380/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </p>
+      </div>
+
+      
+<div class="profile-wrap">
+  <img src="images/profile.jpg"
+       alt="HariniSri - Frontend Developer"
+       class="profile-img">
+</div>
+</section>
+
+
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+      <p>
+        I'm a Computer Applications graduate and MCA student
+        interested in frontend development. I enjoy creating
+        clean, responsive web interfaces and improving my
+        programming skills through practical projects.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>Technical <span>Skills</span></h2>
+
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Responsive Design</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">MY RECENT WORK</p>
+      <h2>Featured <span>Projects</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">01</div>
+          <h3>Weather Report App</h3>
+          <p>
+            A weather application that displays current
+            weather details using a weather API.
+          </p>
+          <p class="tech">HTML · CSS · JavaScript · API</p>
+          <a href="https://weather-report-ovfa.vercel.app/"
+             target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+          <a href="https://github.com/sriharini252004-dev/weather-report"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">02</div>
+          <h3>React Image Gallery</h3>
+          <p>
+            A responsive image gallery built using
+            reusable React components.
+          </p>
+          <p class="tech">React · CSS · JavaScript</p>
+          <a href="https://my-gallery-lzi4z45pb-image-gallery2.vercel.app/"
+             target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+          <a href="https://github.com/sriharini252004-dev/image-react-project"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">03</div>
+          <h3>Personal Portfolio</h3>
+          <p>
+            My portfolio showcasing my skills, projects
+            and contact information.
+          </p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+          <a href="#home">View Website ↗</a>
+          <a href="https://github.com/sriharini252004-dev"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section resume-section">
+      <h2>Want to know more?</h2>
+      <p>Download my resume to explore my qualifications and skills.</p>
+      <a class="btn" href="resume.pdf" download>Download Resume ↓</a>
+      <p class="note">Add your final resume PDF to this folder as resume.pdf.</p>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact <span>Me</span></h2>
+      <p>Have an internship opportunity or project in mind? Get in touch.</p>
+
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text"
+               placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input id="email" name="email" type="email"
+               placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"
+                  placeholder="Write your message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> HariniSri · Frontend Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
