@@ -1,29 +1,30 @@
-# Personal-portfolio
-Responsive Personal Portfolio Website using HTML, CSS and JavaScript
+🚀 **Built a Sales Analytics Dashboard using React.js!**
 
-🚀 Excited to Share My Personal Portfolio Website!
-
-I’m happy to share my Personal Portfolio Website, built as part of my frontend development learning journey.
-
-💻 **Technologies Used:**
-• HTML5
-• CSS3
-• JavaScript
+I’m excited to share my Sales Analytics Dashboard project, built to turn raw sales data into meaningful insights through a clean, interactive, and responsive admin dashboard.
 
 ✨ **Key Features:**
-• Responsive design for desktop and mobile
-• About Me and Technical Skills sections
-• Projects with GitHub links
-• Resume download section
-• Contact form with frontend validation
-• Smooth scrolling and mobile navigation
+📊 Summary cards for revenue, orders, and visitors  
+📈 Monthly sales vs. orders bar chart  
+🍩 Traffic sources donut chart  
+🔍 Searchable and sortable orders table with pagination  
+🌙 Dark mode and light mode  
+📱 Responsive design with a mobile-friendly sidebar  
 
-🎯 Through this project, I practised webpage structuring, CSS styling, responsive layouts, and JavaScript DOM manipulation.
+🛠️ **Tech Stack:** React.js | Tailwind CSS | Recharts
 
-🔗 **Live Demo:** [ https://sriharini252004-dev.github.io/Personal-portfolio/]
+💡 **What I Learned:**
+- Managing state using React Hooks
+- Implementing search, sorting, and pagination
+- Optimizing table calculations using `useMemo`
+- Building responsive data visualizations
 
-💻 **GitHub Repository:** https://github.com/sriharini252004-dev/Personal-portfolio.git
+🔗 **GitHub Repository:**  
+https://github.com/sriharini252004-dev/Sales-Dashboard.git
 
-I’m continuously learning and building projects to grow as a Frontend Developer. Open to learning opportunities and frontend development internships!
+🌐 **Live Demo:** [https://sales-dashboard-seven-psi.vercel.app/]
 
-#FrontendDevelopment #HTML #CSS #JavaScript #WebDevelopment #Portfolio #OpenToWork
+I’m a fresher actively looking for **Frontend Developer / React Developer Internship opportunities**. I’m eager to learn, improve my skills, and contribute to real-world projects.
+
+I’d love to hear your feedback and connect with developers and recruiters! 🙌
+
+#ReactJS #FrontendDeveloper #TailwindCSS #Recharts #WebDevelopment #ReactDeveloper #Fresher #OpenToWork
