@@ -20,7 +20,7 @@ I’m happy to share my Personal Portfolio Website, built as part of my frontend
 
 🎯 Through this project, I practised webpage structuring, CSS styling, responsive layouts, and JavaScript DOM manipulation.
 
-🔗 **Live Demo:** [Add your deployed website link]
+🔗 **Live Demo:** [ https://sriharini252004-dev.github.io/Personal-portfolio/]
 
 💻 **GitHub Repository:** https://github.com/sriharini252004-dev/Personal-portfolio.git
 
